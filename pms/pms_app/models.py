@@ -70,8 +70,8 @@ class Image(models.Model):
         markers = markers+1
         markers[unknown == 255] = 0
         markers = cv2.watershed(img, markers)
-        markers = cv2.dilate(markers, None)
         img[markers == -1] = [255, 0, 0]
+
         return img, ret
 
     def count_grap(self):
