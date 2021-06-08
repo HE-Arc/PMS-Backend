@@ -8,7 +8,7 @@ Markdown==3.2.1
 mysqlclient==1.4.6
 numpy==1.18.3
 opencv-python==4.2.0.34
-Pillow==7.1.2
+Pillow==8.2.0
 pytz==2020.1
 six==1.14.0
 sqlparse==0.3.1
